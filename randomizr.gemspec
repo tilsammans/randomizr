@@ -12,6 +12,8 @@ Gem::Specification.new do |s|
   s.description = %q{Returns one random Active Record object using cross-platform ANSI compliant SQL}
 
   s.rubyforge_project = "randomizr"
+  
+  s.add_dependency('activerecord', '>= 2.1', '< 4')
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

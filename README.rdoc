@@ -1,0 +1,29 @@
+= Randomizr
+
+Returns one random Active Record object using cross-platform ANSI compliant SQL.
+
+We have all used <tt>order by rand()</tt> to select a random record from time to time.
+We know we shouldn't, but it was just too easy. Well no more. NO MORE. It's
+now +easier+ to do it properly by just using this gem. That's right. It will
+solve all your ansi-sql troubles and put that smile back on your face.
+
+== Prerequisites
+
+Active Record, of course. Any version 2 or 3 will do.
+
+== Installation
+
+  config.gem 'randomizr'
+
+or in your Gemfile:
+
+  gem 'randomizr'
+
+I told you installation would be easy.
+
+
+== Examples
+
+  Comment.randomizr     # => look ma, a random comment!
+
+Copyright (c) 2011 Joost Baaij, released under the MIT license
