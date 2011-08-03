@@ -1,5 +1,5 @@
 require "randomizr/version"
-require "activerecord"
+require "active_record"
 
 # http://paulbarry.com/articles/2009/08/30/active-record-random
 class ActiveRecord::Base
