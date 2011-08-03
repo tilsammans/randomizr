@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Joost Baaij"]
   s.email       = ["joost@spacebabies.nl"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{SQL compliant random Active Record}
+  s.description = %q{Returns one random Active Record object using cross-platform ANSI compliant SQL}
 
   s.rubyforge_project = "randomizr"
 
